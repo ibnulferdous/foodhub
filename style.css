@@ -18,6 +18,7 @@ h2 {
     margin: 0 0 10px;
 }
 
+
 /* Utility Classes */
 .container {
     max-width: calc(1200px + 12%);
@@ -63,6 +64,7 @@ h2 {
     color: #828282;
 }
 
+
 /* Hero section */
 .hero-section .container div:first-child {
     padding-right: 5%;
@@ -77,6 +79,7 @@ h2 {
     line-height: 1.5em;
     margin: 2.5% 0 7.5%;
 }
+
 
 /* Section Two */
 .section-two {
@@ -94,6 +97,7 @@ h2 {
     margin: 1.5% 0 5%;
 }
 
+
 /* Section Three */
 .receipe-intro {
     width: 50%;
@@ -106,15 +110,48 @@ h2 {
 }
 
 .receipe-item {
-    margin: 0 2%;
     padding: 1.5%;
     box-shadow: 0 0 15px 1px #00000025;
     border-radius: 25px;
     flex: 1;
 }
 
+.receipe-item:first-child {
+    margin: 0 3% 0 0;
+}
+
+.receipe-item:nth-child(2) {
+    margin: 0 1.5% 0;
+}
+
+.receipe-item:last-child {
+    margin: 0 0 0 3%;
+}
+
 .receipe-item h3 {
     margin: 7.5% 0 1%;
+}
+
+
+/* Section 4 */
+.section-four .container {
+    padding: 0 6% 6%;
+}
+
+.section-four .div-shadow {
+    box-shadow: 0 0 15px 1px #00000025;
+    border-radius: 25px;
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-four h2 {
+    color: #2b2b2b;
+}
+
+.section-four p {
+    margin-bottom: 0;
 }
 
 
