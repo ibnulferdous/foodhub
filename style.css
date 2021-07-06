@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: .85vw;
     margin: 0;
     color: #575757;
 }
@@ -9,11 +10,16 @@ h1 {
     margin: 0 0 10px;
 }
 
+h2 {
+    font-size: 2.5vw;
+    margin: 0 0 10px;
+}
+
 /* Utility Classes */
 .container {
-    max-width: calc(1200px + 10%);
+    max-width: calc(1200px + 12%);
     margin: auto;
-    padding: 5%;
+    padding: 6%;
 }
 
 .flex-container {
@@ -31,8 +37,9 @@ h1 {
 .button {
     display: inline-block;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400;
     font-size: .9vw;
+    letter-spacing: 1px;
     text-transform: capitalize;
     background-image: linear-gradient(45deg, #FBA24F, #FF1E1E);
     color: #ffffff;
@@ -62,8 +69,26 @@ h1 {
 }
 
 .hero-section p {
-    font-size: 1vw;
+    font-size: 1.1vw;
     font-weight: 500;
-    line-height: 1.5em;
+    line-height: 1.7em;
     margin: 1% 0 7.5%;
 }
+
+/* Section Two */
+.section-two {
+    background: url("images/7.png") no-repeat center / cover;
+}
+
+.section-two .container div:nth-child(2) {
+    padding: 0 0 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-two p {
+    margin: 1.5% 0 5%;
+    line-height: 1.8em;
+}
+
