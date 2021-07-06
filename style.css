@@ -65,7 +65,54 @@ h2 {
 }
 
 
+/* Nav Menu */
+nav {
+    box-shadow: 0 0 15px 1px #00000025;
+}
+
+nav .container {
+    padding: .75% 6%;
+}
+
+nav .half-width:first-child {
+    display: flex;
+    align-items: center;
+}
+
+nav .logo {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #0B0D17;
+}
+
+.menu-div {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.menu-div li {
+    display: inline-block;
+}
+
+.menu-div li a {
+    text-decoration: none;
+    color: #0B0D17;
+    font-weight: 500;
+    padding: 5px 20px;
+}
+
+.menu-div li a:hover {
+    color: #FF1E1E;
+}
+
+
 /* Hero section */
+.hero-section {
+    background: url("images/dotted-bg.svg") no-repeat 85% 80% / 15%;
+}
+
 .hero-section .container div:first-child {
     padding-right: 5%;
     display: flex;
@@ -167,7 +214,7 @@ h2 {
 .individual-review {
     background: #ffffff;
     padding: 5%;
-    box-shadow: 0 0 15px 1px #00000025;
+    box-shadow: 0 0 15px 1px #fba24f41;
     border-radius: 25px;
     flex: 1;
 }
