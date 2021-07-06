@@ -133,6 +133,11 @@ nav .logo {
     background: url("images/7.png") no-repeat center / cover;
 }
 
+.section-two img.full-width {
+    border-radius: 25px;
+    box-shadow: 0 0 15px 1px #fba24f70;
+}
+
 .section-two .container div:nth-child(2) {
     padding: 0 0 0 5%;
     display: flex;
