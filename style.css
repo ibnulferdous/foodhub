@@ -154,4 +154,59 @@ h2 {
     margin-bottom: 0;
 }
 
+/* Section Five */
+.section-five {
+    background: url("images/7.png") no-repeat center / cover;
+}
+
+.section-five h2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.individual-review {
+    background: #ffffff;
+    padding: 5%;
+    box-shadow: 0 0 15px 1px #00000025;
+    border-radius: 25px;
+    flex: 1;
+}
+
+.individual-review:first-child {
+    margin-right: 2.5%;
+}
+
+.individual-review:last-child {
+    margin-left: 2.5%;
+}
+
+.individual-review img {
+    max-width: 20%;
+}
+
+.individual-review h4 {
+    margin: 5% 0 0;
+}
+
+.individual-review h5 {
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Footer */
+footer {
+    background: #0B0D17;
+    text-align: center;
+    color: #cecece;
+}
+
+footer .container {
+    padding: 3%;
+}
+
+footer p {
+    margin: 0;
+    font-size: .7vw;
+}
+
 
